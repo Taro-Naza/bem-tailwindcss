@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="./styles/styles.css">
+	<title>Airbnb</title>
+</head>
+
+<body>
+	<!-- Header start -->
+	<header class="header">
+		<nav class="nav">
+			<img class="nav__image" src="./assets/images/logo.png" alt="Airbnb logo image" />
+		</nav>
+		<div class="hero">
+			<h1 class="hero__heading">
+				Book a trip, Host travels, All on Airbnb
+			</h1>
+			<div class="hero-cta">
+				<div class="hero__cta-left">
+					<p class="hero__cta-text">Find a place to stay and things to do</p>
+					<button class="hero__button hero__button--white">Explore</button>
+				</div>
+				<div class="hero__cta-left">
+					<p class="hero__cta-text">Earn money from your extra space</p>
+					<button class="hero__button hero__button--transparent">Host</button>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- Header end -->
+
+	<main class="main">
+		<!-- Booking start -->
+		<section class="booking ">
+			<h2 class="booking__heading">Book unique homes and experiences</h2>
+
+			<form class="booking__form">
+				<div class="booking__form-labeled-input">
+					<label class="booking__form-label">
+						WHERE
+					</label>
+					<input class="booking__form-input" type="text" name="location" placeholder="Anywhere">
+				</div>
+
+				<div class="booking__form-labeled-input">
+					<label class="booking__form-label">
+						CHECK-IN - CHECK-OUT
+					</label>
+					<input class="booking__form-input" type="date" name="location">
+				</div>
+
+				<div class="booking__form-labeled-input">
+					<label class="booking__form-label">
+						GUESTS
+					</label>
+					<select class="booking__form-input" name="guests">
+						<option value="">Guests</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+					</select>
+				</div>
+
+			</form>
+		</section>
+		<!-- Booking end -->
+
+		<!-- Reviews start -->
+		<section class="reviews">
+			<h2 class="reviews__heading">What guests are saying about homes in the United States</h2>
+			<p class="reviews__text">&#11088; Unites States homes were rated <span>4.8 out of 5 staets</span> with
+				<span>42,5000,000+ reviews</span>
+			</p>
+			<div class="cards-container">
+				<div class="card">
+					<img src="./assets/images/interior1.jpg" alt="house interor" class="card__image">
+					<i class="card__rating">&#9733;&#9733;&#9733;&#9733;&#9733;</i>
+					<p class="card__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam
+						expedita vitae, amet aliquam facilis consequuntur hic quasi odio minus aliquam maiores.
+					</p>
+					<div class="card__user">
+						<img src="./assets/images/user1.jpg" alt="user image" class="card__user-image">
+						<div class="card__user-details">
+							<p>Jeff</p>
+							<p>United States</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="card">
+					<img src="./assets/images/interior2.jpg" alt="house interor" class="card__image">
+					<i class="card__rating">&#9733;&#9733;&#9733;&#9733;&#9733;</i>
+					<p class="card__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam
+						expedita vitae, amet aliquam facilis consequuntur hic quasi odio minus aliquam maiores.
+					</p>
+					<div class="card__user">
+						<img src="./assets/images/user2.jpg" alt="user image" class="card__user-image">
+						<div class="card__user-details">
+							<p>Lesaly</p>
+							<p>United Kingdom</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="card">
+					<img src="./assets/images/interior3.jpg" alt="house interor" class="card__image">
+					<i class="card__rating">&#9733;&#9733;&#9733;&#9733;&#9733;</i>
+					<p class="card__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam
+						expedita vitae, amet aliquam facilis consequuntur hic quasi odio minus aliquam maiores.
+					</p>
+					<div class="card__user">
+						<img src="./assets/images/user3.jpg" alt="user image" class="card__user-image">
+						<div class="card__user-details">
+							<p>Denise</p>
+							<p>United States</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Reviews end -->
+
+		<!-- features start -->
+		<section class="features">
+			<h2 class="features__heading">Traveling with Airbnb</h2>
+			<hr class="hr">
+			<div class="features__cards">
+				<div class="features-card">
+					<i class="features-card__icon"><svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6"
+							fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+								d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+						</svg></i>
+					<h3 class="features-card__heading">24/7 customer support</h3>
+					<p class="features-card__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+						Officia
+						velit repudiandae neque eveniet, autem ad, pariatur et, numquam cum illum maiores.</p>
+				</div>
+
+				<div class="features-card">
+					<i class="features-card__icon"><svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6"
+							fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+								d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+						</svg></i>
+					<h3 class="features-card__heading">Global hospitality standards</h3>
+					<p class="features-card__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+						Officia
+						velit repudiandae neque eveniet, autem ad, pariatur et, numquam cum illum maiores.</p>
+				</div>
+
+				<div class="features-card">
+					<i class="features-card__icon"><svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6"
+							fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+								d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+						</svg></i>
+					<h3 class="features-card__heading">5-star hosts</h3>
+					<p class="features-card__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+						Officia
+						velit repudiandae neque eveniet, autem ad, pariatur et, numquam cum illum maiores.</p>
+				</div>
+			</div>
+		</section>
+		<!-- features end -->
+		<hr class="hr">
+
+		<!-- houses start -->
+		<section class="houses">
+			<h2 class="houses__heading">Just booked in teh United States</h2>
+			<div class="house-cards">
+				<div class="house-card">
+					<img src="./assets/images/just-booked-1.jpg" alt="" class="house-card__image">
+					<p class="house-card__type">ENTIRE HOUSE &#11044; JODHUA TREE</p>
+					<p class="house-card__title">The Jpshua Tree House</p>
+					<p class="house-card__price">$285/night</p>
+					<i class="house-card__icons">&#9733;&#9733;&#9733;&#9733;&#9733;<span>467 &#11044;
+							Superhost</span></i>
+				</div>
+
+				<div class="house-card">
+					<img src="./assets/images/just-booked-2.jpg" alt="" class="house-card__image">
+					<p class="house-card__type">DOME HOUSE &#11044; APOTS</p>
+					<p class="house-card__title">Mushroom Dome Cabine</p>
+					<p class="house-card__price">$130/night</p>
+					<i class="house-card__icons">&#9733;&#9733;&#9733;&#9733;&#9733;<span>467 &#11044;
+							Superhost</span></i>
+				</div>
+
+				<div class="house-card">
+					<img src="./assets/images/just-booked-3.jpg" alt="" class="house-card__image">
+					<p class="house-card__type">EARTH HOUSE &#11044; ORONDO</p>
+					<p class="house-card__title">Underground Hygge</p>
+					<p class="house-card__price">$150/night</p>
+					<i class="house-card__icons">&#9733;&#9733;&#9733;&#9733;&#9733;<span>467 &#11044;
+							Superhost</span></i>
+				</div>
+
+				<div class="house-card">
+					<img src="./assets/images/just-booked-4.jpg" alt="" class="house-card__image">
+					<p class="house-card__type">EARTH HOUSEE &#11044; PIONEERTOWN
+					</p>
+					<p class="house-card__title">Off-grid House</p>
+					<p class="house-card__price">$285/night</p>
+					<i class="house-card__icons">&#9733;&#9733;&#9733;&#9733;&#9733;<span>467 &#11044;
+							Superhost</span></i>
+				</div>
+			</div>
+			<a href="#" class="show-all">Show all (22,000+) <i>&#62;</i></a>
+		</section>
+		<!-- houses end -->
+
+		<!-- updates start -->
+		<section class="updates">
+			<h2 class="updates__heading">When are you traveling?</h2>
+			<p class="updates__text">Add dates for updated pricing and avaliabilty</p>
+			<button class="updates__button">Add dates</button>
+		</section>
+		<!-- updates end -->
+	</main>
+
+	<footer class="footer">
+		<div class="footer-container">
+			<div class="footer-section">
+				<h3 class="footer-section__title">Airbnb</h3>
+				<nav class="footer__nav">
+					<a href="#" class="footer__nav-item">Careers</a>
+					<a href="#" class="footer__nav-item">News</a>
+					<a href="#" class="footer__nav-item">Policies</a>
+					<a href="#" class="footer__nav-item">Help</a>
+					<a href="#" class="footer__nav-item">Staff</a>
+				</nav>
+			</div>
+
+			<div class="footer-section">
+				<h3 class="footer-section__title">Discover</h3>
+				<nav class="footer__nav">
+					<a href="#" class="footer__nav-item">Trust & Safety</a>
+					<a href="#" class="footer__nav-item">Travel Credit</a>
+					<a href="#" class="footer__nav-item">Gift Cards</a>
+					<a href="#" class="footer__nav-item">Airbnb</a>
+					<a href="#" class="footer__nav-item">Business Travel</a>
+					<a href="#" class="footer__nav-item">Things To Do</a>
+				</nav>
+			</div>
+
+			<div class="footer-section">
+				<h3 class="footer-section__title">Hosting</h3>
+				<nav class="footer__nav">
+					<a href="#" class="footer__nav-item">Why Host</a>
+					<a href="#" class="footer__nav-item">Hospitality</a>
+					<a href="#" class="footer__nav-item">Community Center</a>
+					<a href="#" class="footer__nav-item">Host an Experience</a>
+					<a href="#" class="footer__nav-item">Open Homes</a>
+					<a href="#" class="footer__nav-item">Donations</a>
+				</nav>
+			</div>
+
+			<div class="footer-section">
+				<div class="footer-section__icons">
+					<i><svg class="svg-icon" xmlns="http://www.w3.org/2000/svg"
+							xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 512 512" id="Layer_1"
+							version="1.1" viewBox="0 0 512 512" xml:space="preserve">
+							<g>
+								<path
+									d="M258.8,507.2C120.4,507.8,6.6,392.6,9.9,251.9C13,117.9,124,7.2,262,8.7C398.7,10.2,511.8,124,508.1,264.9   C504.6,398.3,394.5,507.9,258.8,507.2z M40.2,258.3C41.3,383.6,142.9,480.1,262.9,478c116.2-2.1,214.7-96.8,214.7-220   c0-125.3-102.4-222.2-222.8-219.9C138.6,40.2,41,135.2,40.2,258.3z" />
+								<path
+									d="M206.8,433.4c0-58.9,0-117.3,0-176.3c-13,0-25.6,0-38.5,0c0-20,0-39.4,0-59.4c1.7-0.1,3.4-0.3,5.2-0.3   c9.3,0,18.7-0.2,28,0.1c4.1,0.1,5.5-1,5.4-5.2c-0.2-15.2-0.2-30.3-0.1-45.5c0.1-17.1,4.9-32.6,17.1-45c11.8-12,26.9-18.5,43.3-19.5   c26.4-1.5,52.9-1.3,79.4-1.8c0.3,0,0.6,0.3,1.2,0.6c0,20.1,0,40.3,0,61c-1.9,0.1-3.7,0.2-5.4,0.2c-12,0-24,0-36,0   c-12.1,0.1-19.2,7.3-19.2,19.2c0,11.3,0,22.7,0.1,34c0,0.3,0.2,0.6,0.5,1.7c19.8,0,39.8,0,60.8,0c-2.6,20.3-5,39.7-7.6,59.8   c-18.1,0-35.8,0-54,0c0,59.2,0,117.8,0,176.6C260.1,433.4,233.9,433.4,206.8,433.4z" />
+							</g>
+						</svg></i>
+					<i><svg class="svg-icon" enable-background="new 0 0 144.083 144" height="144px" id="Instagram"
+							version="1.1" viewBox="0 0 144.083 144" width="144.083px" xml:space="preserve"
+							xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+							<path
+								d="M72.041,11.166c-33.543,0-60.833,27.29-60.833,60.834c0,33.544,27.29,60.834,60.833,60.834  c33.544,0,60.834-27.29,60.834-60.834C132.875,38.456,105.584,11.166,72.041,11.166z M72.041,126.834  c-30.235,0-54.833-24.599-54.833-54.834c0-30.235,24.598-54.834,54.833-54.834c30.235,0,54.834,24.599,54.834,54.834  C126.875,102.235,102.276,126.834,72.041,126.834z" />
+							<path
+								d="M91.076,42.701H53.006c-5.615,0-10.184,4.568-10.184,10.184v38.245c0,5.615,4.568,10.184,10.184,10.184h38.069  c5.615,0,10.184-4.568,10.184-10.184V52.884C101.259,47.269,96.691,42.701,91.076,42.701z M80.847,71.899  c0,4.856-3.95,8.806-8.806,8.806s-8.806-3.95-8.806-8.806c0-2.409,0.974-4.593,2.546-6.184H78.3  C79.874,67.306,80.847,69.49,80.847,71.899z M83.4,50.849h8.92v9.189H83.4V50.849z M91.076,95.313H53.006  c-2.307,0-4.184-1.877-4.184-4.184V65.715h9.784c-0.871,1.885-1.371,3.975-1.371,6.184c0,8.165,6.642,14.806,14.806,14.806  s14.806-6.642,14.806-14.806c0-2.209-0.5-4.299-1.371-6.184h9.783v25.414C95.259,93.436,93.382,95.313,91.076,95.313z" />
+						</svg></i>
+					<i><svg class="svg-icon" enable-background="new 0 0 144.083 144" height="144px" id="Twitter"
+							version="1.1" viewBox="0 0 144.083 144" width="144.083px" xml:space="preserve"
+							xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+							<path
+								d="M72.041,11.166c-33.543,0-60.833,27.29-60.833,60.834c0,33.545,27.29,60.834,60.833,60.834  c33.544,0,60.835-27.289,60.835-60.834C132.875,38.456,105.584,11.166,72.041,11.166z M72.041,126.834  c-30.235,0-54.833-24.598-54.833-54.834c0-30.235,24.598-54.834,54.833-54.834c30.235,0,54.835,24.599,54.835,54.834  C126.875,102.236,102.276,126.834,72.041,126.834z" />
+							<path
+								d="M99.208,52.18c1.398-0.722,4.746-2.867,6.324-7.471c0,0-3.803,2.75-8.979,3.074l-0.094,0.052  c-2.648-2.89-6.455-4.703-10.688-4.703c-8.008,0-14.499,6.492-14.499,14.5c0,1.215,0.151,2.395,0.434,3.523l-0.07-0.105  c0,0-15.53,0.89-30.171-15.127c0,0-6.473,11.001,4.61,19.414c-2.427,0.404-6.713-1.78-6.713-1.78s0.242,11.566,11.728,14.398  c-1.86,0.486-5.339,0.646-6.471,0.162c0,0,1.698,8.816,13.428,10.354c-2.993,1.699-8.574,6.875-21.194,5.904  c0,0,9.062,7.441,25.887,6.391s29.04-12.377,33.974-24.348c4.934-11.971,3.561-18.787,3.561-18.787s4.123-2.164,6.957-7.34  c-1.309,0.392-6.164,1.578-7.971,2.017C99.243,52.266,99.225,52.223,99.208,52.18z" />
+						</svg></i>
+				</div>
+				<nav class="footer__nav">
+					<a href="#" class="footer__nav-item">Terms</a>
+					<a href="#" class="footer__nav-item">Privacy</a>
+					<a href="#" class="footer__nav-item">Site Map</a>
+				</nav>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>

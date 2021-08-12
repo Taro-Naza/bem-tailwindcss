@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*---------------------------------------Gloabl---------------------------------------*/
+
+body {
+	@apply font-roboto;
+}
+
+.main {
+	@apply container mx-auto px-60;
+}
+
+/*---------------------------------------Header---------------------------------------*/
+
+.header {
+	@apply text-white;
+	height: 50vh;
+	background: url('../assets/images/hero.jpg');
+	background-size: cover;
+	background-position: bottom;
+}
+
+.nav {
+	height: 7vh;
+}
+
+.nav__image {
+	@apply py-2 px-3 h-4/5;
+}
+
+.hero {
+	@apply container mx-auto px-60 flex flex-col justify-center;
+	height: 43vh;
+}
+
+.hero__heading {
+	@apply text-4xl font-normal mb-2;
+}
+
+.hero-cta {
+	@apply flex gap-x-7 text-sm;
+}
+
+.hero__cta-text {
+	@apply tracking-wider;
+}
+
+.hero__button {
+	@apply border-2 border-white rounded w-full py-2 my-2 font-bold;
+}
+
+.hero__button--transparent {
+	@apply hover:bg-white hover:text-gray-600;
+}
+
+.hero__button--white {
+	@apply bg-white text-gray-600 hover:bg-transparent hover:text-white;
+}
+
+/*---------------------------------------Booking---------------------------------------*/
+
+/* .booking {
+	@apply mb-14;
+} */
+
+.booking__heading {
+	@apply text-lg font-bold mt-10 mb-3;
+}
+
+.booking__form {
+	@apply gap-x-4 flex;
+}
+
+.booking__form-labeled-input {
+	@apply flex-grow text-sm font-bold to-gray-600;
+	height: 10vh;
+}
+
+.booking__form-label {
+	@apply h-1/2;
+}
+.booking__form-input {
+	@apply w-full h-1/2 px-4 text-gray-500 text-base font-bold outline-none border-2 rounded-sm border-gray-300 focus:border-brand;
+}
+
+/*---------------------------------------Reviews---------------------------------------*/
+.reviews {
+	@apply my-10;
+}
+
+.reviews__heading {
+	@apply text-lg font-bold mt-10 mb-3;
+}
+
+.reviews__text {
+	@apply text-sm;
+}
+
+.reviews__text span {
+	@apply font-bold;
+}
+
+.cards-container {
+	@apply gap-x-4 mt-8 flex;
+}
+
+.card {
+	@apply w-1/3;
+}
+
+.card__image {
+	@apply w-full;
+}
+
+.card__rating {
+	@apply not-italic text-lg text-brand;
+}
+
+.card__description {
+	@apply text-sm my-2;
+}
+
+.card__user {
+	@apply mt-4 flex;
+}
+
+.card__user-image {
+	@apply w-1/6 mr-4 rounded-full;
+}
+.card__user-details p:first-child {
+	@apply text-sm font-bold;
+}
+
+/*---------------------------------------Features---------------------------------------*/
+.features {
+	@apply my-10;
+}
+
+.features__heading {
+	@apply text-lg font-bold my-10 mb-3;
+}
+
+.hr {
+	@apply mb-3 text-gray-300;
+}
+
+.features__cards {
+	@apply gap-x-4 flex;
+}
+
+.features-card {
+	@apply w-1/3;
+}
+
+.features-card__icon svg {
+	@apply w-1/12 mb-3 text-brand;
+}
+
+.features-card__heading {
+	@apply text-sm font-bold my-3;
+}
+
+.features-card__description {
+	@apply text-sm;
+}
+
+/*---------------------------------------Houses---------------------------------------*/
+
+.houses__heading {
+	@apply text-lg font-bold my-10;
+}
+
+.house-cards {
+	@apply gap-x-4 flex;
+}
+
+.house-card__type {
+	@apply text-xs font-bold text-gray-300 my-1;
+}
+
+.house-card__title {
+	@apply font-bold;
+}
+
+.house-card__price {
+	@apply text-sm text-gray-400;
+}
+
+.house-card__icons {
+	@apply not-italic text-brand;
+}
+
+.house-card__icons span {
+	@apply text-xs text-gray-400;
+}
+
+.show-all {
+	@apply block my-10 text-lg text-brand hover:underline;
+}
+
+.show-all i {
+	@apply not-italic text-lg;
+}
+
+/*---------------------------------------Updates---------------------------------------*/
+
+.updates__heading {
+	@apply text-lg font-bold my-2;
+}
+
+.updates__text {
+	@apply text-sm;
+}
+
+.updates__button {
+	@apply bg-brand mt-2 mb-4 py-2 px-4 rounded-sm text-white;
+}
+
+/*---------------------------------------Footer---------------------------------------*/
+
+.footer {
+	@apply bg-gray-100 text-gray-500;
+}
+
+.footer-container {
+	@apply container mx-auto px-60 py-8 flex;
+}
+
+.footer-section {
+	@apply flex flex-col w-1/4;
+}
+
+.footer-section__title {
+	@apply font-bold;
+}
+
+.footer__nav {
+	@apply flex flex-col;
+}
+
+.footer__nav-item {
+	@apply text-sm;
+}
+
+.footer-section__icons {
+	@apply flex items-start justify-start text-brand;
+}
+
+.svg-icon {
+	height: 25px;
+	width: 25px;
+	margin: 0.5rem 0;
+}
